@@ -1,0 +1,18 @@
+{
+  "name": "particle-portrait",
+  "version": "1.0.0",
+  "description": "粒子人物画像生成器 - p5.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "p5.js",
+    "particle",
+    "portrait",
+    "art"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
