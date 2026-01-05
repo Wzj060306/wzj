@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5.4 上升实验 - p5.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.3/lib/p5.min.js"></script>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: #0b1020;
+        color: #e5e7eb;
+      }
+      header {
+        padding: 10px 16px;
+        font-size: 14px;
+        color: #9ca3af;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+      }
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+      }
+      #canvas-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      canvas {
+        display: block;
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+      }
+      #resetBtn {
+        padding: 8px 20px;
+        border-radius: 999px;
+        border: none;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 600;
+        background: linear-gradient(120deg, #22c55e, #38bdf8);
+        color: #041019;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      5.4 上升实验 · 点击画面下方按钮选择角色并开始上升
+    </header>
+    <main>
+      <div id="canvas-container"></div>
+      <button id="resetBtn">重置场景</button>
+    </main>
+    <script src="./sketch.js"></script>
+  </body>
+  </html>
+
